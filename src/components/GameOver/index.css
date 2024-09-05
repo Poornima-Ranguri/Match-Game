@@ -1,0 +1,110 @@
+@media screen and (min-width: 768px) {
+  .game-over-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    background-size: cover;
+    padding-top: 250px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    padding-bottom: 10px;
+  }
+
+  .trophy-image {
+    width: 300px;
+    margin-top: 80px;
+    height: 250px;
+  }
+
+  .your-score {
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  .your-score-count {
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .play-btn {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #cf60c8;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reset {
+    margin: 3px;
+  }
+
+  .play {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-over-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: cover;
+    padding-top: 100px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+  }
+
+  .trophy-image {
+    width: 300px;
+    margin-top: 80px;
+    height: 200px;
+  }
+
+  .your-score {
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+  .your-score-count {
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .play-btn {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #cf60c8;
+    padding: 6px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .reset {
+    margin-right: 3px;
+  }
+
+  .play {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+  }
+}

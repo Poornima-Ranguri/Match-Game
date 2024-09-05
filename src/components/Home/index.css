@@ -1,0 +1,156 @@
+@media screen and (min-width: 768px) {
+  .home {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+  .card-container-2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-container-3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .image-unordered-list {
+    list-style-type: none;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card-container-4 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .poori-container {
+    align-self: flex-end;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .poorig {
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .poori {
+    color: #bfbfbf;
+    font-family: 'Sans Serif';
+    font-weight: 500;
+  }
+}
+
+.card-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .match-image {
+    width: 300px;
+    margin-top: 10px;
+    height: 200px;
+  }
+
+  .home {
+    width: 98vw;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+    background-size: cover;
+    text-align: center;
+  }
+
+  .card-container-2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-container-3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .image-unordered-list {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .card-container-4 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .poori-container {
+    align-self: flex-end;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .poorig {
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .poori {
+    color: #bfbfbf;
+    font-family: 'Sans Serif';
+    font-weight: 500;
+  }
+}

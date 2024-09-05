@@ -1,0 +1,29 @@
+@media screen and (min-width: 768px) {
+  .btn-image {
+    margin: 10px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+
+  .thumbnail-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn-image {
+    margin-right: 3px;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+
+  .thumbnail-image {
+    width: 70px;
+    height: 70px;
+  }
+}
